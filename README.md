@@ -3,7 +3,8 @@
 ## Goal
 Implement BST (Balanced Binary Search Tree) and Counting Sort algorithm 
 Generate 100 random datasets and measure complexity
-Figure out when Counting Sort doesn’t perform
+Figure out when Counting Sort doesn’t  
+Measure perfomance  
 
 ## Balanced Binary Search Tree
 ### Run
@@ -143,3 +144,15 @@ python cs.py
 ```
 
 ### Conclusion: Counting Sort algorithm do not perform on highly ditributed data (high distance between nearest numbers, expensive count array tasks)
+
+## Profiling
+```
+python bbst_perfomance.py > log.csv
+```
+
+Result: 
+`log.csv`
+
+Analyze:
+`Profiling.xlsx`
+
