@@ -156,3 +156,11 @@ Result:
 Analyze:
 `Profiling.xlsx`
 
+### Search, insert and delete `O(log n)` 
+![image](https://user-images.githubusercontent.com/52753625/203656113-e47eac4e-c45c-426a-aa81-adfdd1f58079.png)
+
+
+### Memory size `O(n)` 
+![image](https://user-images.githubusercontent.com/52753625/203656159-e6d56dbf-b5d4-4a8c-a05d-4710ee059baf.png)
+
+
