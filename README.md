@@ -13,7 +13,7 @@ python bbst.py
 
 ### Result
 ```
-   size, rows  duration, microsec  duration per item, microsec
+   size, rows  duration, sec  duration per item, microsec
 0         100            0.033840                   338.397026
 0         100            0.025928                   259.284973
 0         100            0.024014                   240.135193
@@ -114,7 +114,7 @@ python cs.py
 
 ### Result
 ```
-   size, rows  number range  duration, microsec  duration per item, microsec
+   size, rows  number range  duration, sec  duration per item, microsec
 0         100      10000000            0.966499                  9664.986134
 0         100      10000000            0.946239                  9462.387562
 0        1000      10000000            1.196158                  1196.157932
@@ -135,6 +135,11 @@ python cs.py
 0      100000      10000000            1.354976                    13.549759
 0       10000       1000000            0.132235                    13.223505
 0       10000       1000000            0.131449                    13.144851
+...
+0     1000000       1000000            0.645247                     0.645247
+...
+0     1000000           100            0.189286                     0.189286
+0      100000           100            0.018663                     0.186632
 ```
 
 ### Conclusion: Counting Sort algorithm do not perform on highly ditributed data (high distance between nearest numbers, expensive count array tasks)
